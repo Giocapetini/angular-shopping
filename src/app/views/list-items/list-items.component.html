@@ -1,0 +1,7 @@
+<div class="list-container">
+  <div *ngFor="let item of list;" class="list-item">
+    <h2>{{item.itemName}}</h2>
+    <p>$ {{item.itemValue}}</p>
+    <input type="number" [(ngModel)]="item.selectedAmount" min="0">
+  </div>
+</div>

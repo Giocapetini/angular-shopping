@@ -1,0 +1,66 @@
+[
+  {
+    "id": 0,
+    "itemName": "Book",
+    "itemValue": 12.49,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 0
+  },
+  {
+    "id": 1,
+    "itemName": "Music CD",
+    "itemValue": 14.99,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 10
+  },
+  {
+    "id": 2,
+    "itemName": "Chocolate bar",
+    "itemValue": 0.85,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 0
+  },
+  {
+    "id": 3,
+    "itemName": "Imported box of chocolates",
+    "itemValue": 10.00,
+    "itemAltValue": 11.25,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 5
+  },
+  {
+    "id": 4,
+    "itemName": "Imported bottle of perfume",
+    "itemValue": 27.99,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 15
+  },
+  {
+    "id": 5,
+    "itemName": "Bottle of perfume",
+    "itemValue": 18.99,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 10
+  },
+  {
+    "id": 6,
+    "itemName": "Packet of headache pills",
+    "itemValue": 9.75,
+    "selectedAmount": 0,
+    "sumUntaxed": 0,
+    "sumtaxed": 0,
+    "tax": 0
+  }
+]

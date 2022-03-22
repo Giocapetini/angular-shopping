@@ -1,0 +1,23 @@
+.receipt-container {
+  > .receipt-item {
+    padding-left: 25px;
+    display: flex;
+    align-items: center;
+    > h2 {
+      font-size: 16px;
+      flex: 3;
+    }
+    > .item-value {
+      flex: 1;
+    }
+    > .selected-amount {
+      flex: 1;
+    }
+    > .item-total {
+      flex: 1;
+    }
+  }
+}
+.total-container {
+  padding-left: 25px;
+}

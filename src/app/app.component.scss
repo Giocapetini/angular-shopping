@@ -1,0 +1,22 @@
+.sales-container {
+  display: flex;
+  min-height: 600px;
+  height: 600px;
+  > .list {
+    height: 100%;
+    flex: 5;
+    border: 1px solid lightgray;
+    > h1 {
+      margin-left: 25px;
+    }
+  }
+  > .receipt {
+    background-color: #ffff99;
+    height: 100%;
+    flex: 3;
+    border: 1px solid lightgray;
+    > h1 {
+      margin-left: 25px;
+    }
+  }
+}

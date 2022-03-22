@@ -1,0 +1,13 @@
+<div *ngFor="let item of receiptItems" class="receipt-container">
+  <div *ngIf="item.selectedAmount > 0" class="receipt-item">
+    <h2>{{item.itemName}}</h2>
+    <p class="item-value">{{item.itemValue}}</p>
+    <p class="selected-amount">X {{item.selectedAmount}}</p>
+    <p class="item-total">{{roundNumber(item.itemValue * item.selectedAmount)}}</p>
+  </div>
+</div>
+<hr>
+<div class="total-container">
+  Total: {{calcTotal()}}
+  Total with Tax: {{calcTotal()}}
+</div>
